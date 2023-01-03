@@ -7,6 +7,26 @@
     <title>Document</title>
 </head>
 <body>
-    <h1>Hellow World</h1>
+    <div id="root_html">
+        <h1>Hello world by html</h1>
+    </div>
+
+    <div id="root_js"></div>
+
+    <div id="root_react"></div>
+
+    <div id="root"></div>
+
+    <script>
+        const h1 = document.createElement("h1");
+        h1.innerHTML = "Hello world by js";
+        const root_js = document.getElementById("root_js");
+        root_js.appendChild(h1);
+    </script>
+
+<script crossorigin src="https://unpkg.com/react@18/umd/react.development.js"></script>
+<script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
+<script src="./app.js"></script>
+ 
 </body>
 </html>
