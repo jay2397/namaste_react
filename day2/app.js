@@ -1,5 +1,4 @@
 /*
- *
  * Created A Server
  * HMR - Hot Module Replacement
  * File Watcher algorithm - C++
@@ -16,18 +15,13 @@
  * port Number
  * Consistent Hashing Algorithm
  * Zero Config
- *
- *
- *
  * Transitive Dependencies
  */
 
 
 // creating react element and rendering in root_react
-
 // HMR - Hot module reloading - keeps refreshing the page based on any change
 // File Watcher is looking for any chnage in any file by using file wathcing alogorith and it is written in c++
-
 //importing react and react-dom from node_modules
 
 import React from "react";
